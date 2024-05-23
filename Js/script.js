@@ -10,7 +10,7 @@ const star = [
 
 //*  funzione per svolgere la richiesta
 tableName = 'TavoloVip'
-const TavoloVip = guests.map((guest, index) => {
+const TavoloVip = star.map((guest, index) => {
     return {
         tableName: tableName,
         guestName: star,
