@@ -71,5 +71,5 @@ console.log(nomiMaiuscolo);
 
 
 //* funzione per creare una lista degli studenti con voto superiore a 70
-const votiSuperiori70 = aula.filter(studente => studente.Grades > 70);
+const votiSuperiori70 = aula.filter(studente => studente.Grades > 70 studente.id > 120);
 console.log(votiSuperiori70)
